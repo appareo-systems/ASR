@@ -21,6 +21,7 @@ targets: [
         ]
     )
 ]
+```
 
 ## How to update
 
@@ -41,8 +42,8 @@ swift package compute-checksum ASR.xcframework.zip
 swift package compute-checksum eesen_carthage.xcframework.zip
 ```
 
-3. Update Package.swift with the new checksums.
+3. Update Package.swift with the new checksums, commit and push.
 
-4. Tag the commit that has the new checksums with your version number (ex: 1.2.3).
+4. Tag the commit that has the new checksums with your new version number (ex: 1.2.3).
 
 5. In Github, add a new realese and choose this tag, upload the two zipped xcframeworks.
