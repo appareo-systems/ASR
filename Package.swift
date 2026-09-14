@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "ASR",
     platforms: [
-        .iOS(.v15), .macOS(.v12) // adjust as needed
+        .iOS(.v16), .macOS(.v12) // adjust as needed
     ],
     products: [
         // Single umbrella product that always brings both binaries
@@ -14,12 +14,12 @@ let package = Package(
         .binaryTarget(
             name: "ASR",
             url: "https://github.com/appareo-systems/ASR/releases/download/0.0.3/ASR.xcframework.zip",
-            checksum: "3923651d77cad8d7d53dbdf3195bbb632b50ff4833413635e96f917ed439b6a0"
+            checksum: "4d740627a4eebf14b02790ce9b4893698ef976f269b5e17bb22a41441f322374"
         ),
         .binaryTarget(
             name: "eesen_carthage",
             url: "https://github.com/appareo-systems/ASR/releases/download/0.0.3/eesen_carthage.xcframework.zip",
-            checksum: "702bf9418006216500bad674e4c80a675c950c61e05572db0e53314be82ab6e3"
+            checksum: "1a2422cd69cecbea07291ba3aefee42e367efe25795a16192740bd6ba64d688d"
         )
     ]
 )
