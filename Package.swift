@@ -18,8 +18,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "eesen_carthage",
-            url: "https://github.com/appareo-systems/ASR/releases/download/0.0.9/eesen_carthage.xcframework.zip",
-            checksum: "33dfbd67b97c788917309830614be4fc2cdbc9909ff2eb6fdaa0590d20e936f9"
+            url: "https://github.com/appareo-systems/ASR/releases/download/0.0.10/eesen_carthage.xcframework.zip",
+            checksum: "6fce47ac975289b2b92b3b33140f119413dfaa227ab355b885a6abd2eb523395"
         )
     ]
 )
